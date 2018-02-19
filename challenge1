@@ -1,0 +1,13 @@
+from mcpi.minecraft import *
+from mcpi.block import *
+from mine import *
+import time
+
+mc = Minecraft()
+
+playerPos = mc.player.getPos()
+mc.postToChat(str(playerPos))
+
+mc.postToChat("x: " + str(x))
+mc.postToChat("y: " + str(y))
+mc.postToChat("z: " + str(z))
